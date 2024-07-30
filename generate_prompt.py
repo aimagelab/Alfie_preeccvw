@@ -1,5 +1,5 @@
 from pathlib import Path
-from to_remove.settings import settings
+from settings import settings
 import json
 
 from sam_aclip_pixart_sigma.generate import get_pipe, base_arg_parser, parse_bool_args

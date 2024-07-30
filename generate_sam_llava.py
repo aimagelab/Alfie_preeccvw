@@ -3,7 +3,7 @@ import os
 import json
 from tqdm import tqdm
 import string
-from to_remove.settings import settings
+from settings import settings
 
 from sam_aclip_pixart_sigma.generate import get_pipe, base_arg_parser, parse_bool_args
 from transformers import VitMatteImageProcessor, VitMatteForImageMatting
